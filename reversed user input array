@@ -1,0 +1,13 @@
+
+L = [] # creating an empty list
+  
+n = int(input("Enter number of elements : ")) # number of elements as input
+  
+for i in range(0, n): # iterating till the range
+    E = int(input())
+  
+    L.append(E) # adding the element
+      
+reverse = list(reversed(L)) # reverse the list in array
+
+print("Resultant new reversed Array:",reverse) # print the array
